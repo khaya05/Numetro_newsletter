@@ -1,0 +1,35 @@
+.featured{
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  gap: 10px;
+  // grid-template-columns: 1hr 1hr;
+}
+
+.featured-p{
+  color:var(--gray);
+  margin-bottom: 1rem;
+
+  a{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--gray);
+
+    &:hover {
+      text-decoration: none;
+      color: var(--orange)
+    }
+  }
+}
+
+@media (min-width: 48em) {
+  .featured{
+    margin-top: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+  }
+}
+
