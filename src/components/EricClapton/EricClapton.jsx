@@ -1,4 +1,4 @@
-import banner from "../../assets/newsletter.jpg"
+import banner from "../../assets/Newsletter.jpg"
 import Banner from "../Banner/Banner";
 import Heading from "../Heading/Heading";
 
