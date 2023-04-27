@@ -16,8 +16,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--gray);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-block: 1rem;
     white-space: nowrap;
     width: 180px;
     text-overflow: ellipsis;
@@ -27,22 +26,21 @@
 
   @media (min-width: 48em) {
     h3 {
-      width: 100px;
+      width: 160px;
     }
+  }
 
-    .card {
-      width: 100px;
+  @media (min-width: 70em) {
+    h3 {
+      width: 230px;
     }
   }
 
   .link {
     background: var(--orange);
-    background: var(--orange);
     border-radius: 10px;
     width: fit-content;
     padding-block: 0.5rem;
-    position: relative;
-    bottom: 0;
   }
 
   a {
