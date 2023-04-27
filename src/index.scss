@@ -18,12 +18,11 @@
 }
 
 main {
-  max-width: 1440px;
+  max-width: 1110px;
   display: grid;
   place-items: center;
   margin: 0 auto;
   background: var(--light-gray);
-  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -53,8 +52,6 @@ section {
     text-align: center;
     margin-inline: auto;
     color: grey;
-    // line-height: 1.3rem;
-    // letter-spacing: 0.04rem;
 
     a {
       color: inherit;
@@ -76,7 +73,7 @@ section {
     }
 
     .orange {
-      color: orange;
+      color: var(--orange);
     }
     .italic {
       font-style: italic;
@@ -92,7 +89,7 @@ section {
 
 @media (min-width: 48em) {
   section {
-    // width: 70%;
+
     h2 {
       font-size: 1.6rem;
       margin-bottom: 3rem;
@@ -108,7 +105,6 @@ section {
   header {
     height: 15rem;
     font-size: 3.5rem;
-    // margin-bottom: 6rem;
   }
 }
 
@@ -125,7 +121,6 @@ section {
 
 @media (min-width: 48em) {
   .newsletter-main-sections {
-    // width: 80%;
     margin-bottom: 3rem;
   }
 }
